@@ -49,21 +49,18 @@ following plugins:
  * docker-traceability.hpi
 
 
-Usage
------
-
-    docker run -d -t -p 8080:8080 -v ${PWD}/jenkins:/var/lib/jenkins zaiste/jenkins
-
 Building
 --------
 
 Grab Dockerfile from this repository on Github
 
-    docker build github.com/zaiste/docker-jenkins
+    docker build -t kshk/docker-jenkins:1.1 .
 
-Get a Docker image from Docker index
 
-    docker pull zaiste/jenkins
+Usage
+-----
+ 
+    docker run -d -t -p 8080:8080 -v ${PWD}/jenkins:/var/lib/jenkins kshk/docker-jenkins:1.1
 
 Testing
 -------
