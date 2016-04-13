@@ -17,6 +17,37 @@ following plugins:
  * github-oauth.hpi
  * scm-api.hpi
  * postbuild-task.hpi
+ * aws-java-sdk.hpi
+ * ant.hpi
+ * codedeploy.hpi
+ * bitbucket.hpi
+ * bitbucket-pullrequest-builder.hpi
+ * build-pipeline-plugin.hpi
+ * chucknorris.hpi
+ * conditional-buildstep.hpi
+ * copyartifact.hpi
+ * credentials.hpi
+ * docker-commons.hpi
+ * docker-build-step.hpi
+ * envinject.hpi
+ * javadoc.hpi
+ * junit.hpi
+ * mailer.hpi
+ * matrix-auth.hpi
+ * mesos.hpi
+ * parameterized-trigger.hpi
+ * pipeline-build-step.hpi
+ * r.hpi
+ * role-strategy.hpi
+ * run-condition.hpi
+ * sbt.hpi
+ * slack.hpi
+ * docker-build-publish.hpi
+ * docker-custom-build-environment.hpi
+ * dockerhub-notification.hpi
+ * docker-workflow.hpi
+ * docker-traceability.hpi
+
 
 Usage
 -----
