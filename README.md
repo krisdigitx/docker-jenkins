@@ -21,7 +21,7 @@ following plugins:
 Usage
 -----
 
-    docker run -d -t -p 8080:8080 -v ${PWD}:/var/lib/jenkins zaiste/jenkins
+    docker run -d -t -p 8080:8080 -v ${PWD}/jenkins:/var/lib/jenkins zaiste/jenkins
 
 Building
 --------
